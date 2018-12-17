@@ -3,12 +3,12 @@ import numpy as np
 from datetime import datetime
 import sys
 from functools import reduce
-
+from collections import Counter
 
 # when debug mode is on, we only take a sub-sample of total data
 debug_mode = True
 # when we first load this in notebook, turn reload on. afterwards, turn it off no need to reload data everytime
-reload = False
+reload = True
 
 if reload:
     news_train_dir = "./new_train_df.csv"
@@ -33,8 +33,8 @@ identity = lambda series: reduce(lambda x, y: x, series)
 coalesce = lambda x: list(x)
 
 if debug_mode:
-    news = news_df[60000:70000]
-    market = market_df[:5000]
+    news = news_train_df[60000:70000]
+    market = market_train_df[:5000]
 else:
     news = news_train_df
     market = market_train_df
