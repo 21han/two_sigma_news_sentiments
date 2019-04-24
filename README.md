@@ -1,6 +1,11 @@
 # two_sigma_news_sentiments
 
 
+### Description
+
+This repository serves as the development for participating in Kaggle Competition [Link](https://www.kaggle.com/c/two-sigma-financial-news). 
+
+
 ### Logistics
 
 + rule number 1: keep all data file in `.csv` extension otherwise add its type to `.gitignore`
