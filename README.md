@@ -3,7 +3,9 @@
 
 ### Description
 
-This repository serves as the development for participating in Kaggle Competition [Link](https://www.kaggle.com/c/two-sigma-financial-news). 
+This repository serves as the development for participating in Kaggle Competition [Link](https://www.kaggle.com/c/two-sigma-financial-news). Two Sigma Competition has been one of the most popular competition on Kaggle, with `2927` participating teams, and we rank top `2%` percent with current rank at `64th` place.
+
+![](rank.png)
 
 
 ### Logistics
